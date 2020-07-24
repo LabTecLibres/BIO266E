@@ -1,0 +1,9 @@
+name: testing_binder
+dependencies:
+  - python
+  - pip:
+    - numpy
+    - matplotlib
+    - scipy
+    - pandas
+    - bokeh
