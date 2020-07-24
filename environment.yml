@@ -10,6 +10,6 @@ dependencies:
   - scipy
   - pandas
   - bokeh
-  - jupyterlab1.0
+  - jupyterlab<1.0
   - pip:
     -  jupyterlab_latex<1.0
