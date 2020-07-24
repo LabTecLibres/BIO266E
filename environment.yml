@@ -1,9 +1,15 @@
 name: testing_binder
+channels:
+  - conda-forge
 dependencies:
   - python
+  - pip
+  - setuptools
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - bokeh
+  - jupyterlab1.0
   - pip:
-    - numpy
-    - matplotlib
-    - scipy
-    - pandas
-    - bokeh
+    -  jupyterlab_latex<1.0
