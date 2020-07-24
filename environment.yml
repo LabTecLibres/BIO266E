@@ -12,4 +12,5 @@ dependencies:
   - bokeh
   - jupyterlab<1.0
   - pip:
-    -  jupyterlab_latex<1.0
+    - jupyterlab_latex<1.0
+    - xlrd
