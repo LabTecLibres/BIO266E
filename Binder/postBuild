@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# correr matplotlib una vez para generar el cache para Latex
+python -c "import matplotlib as mpl; mpl.use('Agg'); import pylab as plt; fig, ax = plt.subplots(); fig.savefig('test.png')"
+
+test -e test.png && rm test.png
+
+# para instalar jupyterlab latex
+jupyter labextension install @jupyterlab/latex@0.6.1
