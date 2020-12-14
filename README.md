@@ -1,5 +1,5 @@
 # BIO266E
-Acá se encuentra el material para los análisis de resultados y las actividades in silico del curso "Laboratorio de Bioquímica II: Genética Molecular"
+Acá se encuentra el material para los análisis de resultados obtenidos en los prácticos y las actividades *in silico* del curso "Laboratorio de Bioquímica II: Genética Molecular"
 
 # Link para ejecutar cuadernillos en Google Colab
 
